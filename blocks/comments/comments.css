@@ -1,0 +1,30 @@
+@import url('../comments/__container/comments__container.css');
+
+.comments {
+  width: 93%;
+  margin: 0px auto;
+  padding-bottom: 102px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .comments {
+    width: 94%;
+    padding-bottom: 48px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .comments {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .comments {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .comments  {
+    width: 92%;
+  }
+}

@@ -1,0 +1,50 @@
+@import url('../cover/__image/cover__image.css');
+@import url('../cover/__item-bg/cover__item-bg.css');
+@import url('../cover/__link/cover__link.css');
+@import url('../cover/__Rect/cover__Rect.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+@import url('../cover/__title/cover__title.css');
+
+.cover {
+  display: flex;
+  width: 93%;
+  position: relative;
+  margin: 0px auto;
+  position: relative;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.cover:hover .cover__image {
+  opacity: 0.5;
+  background: #000000;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    height: 562px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .cover {
+    width: 100%; 
+    height: 272px;
+   }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .cover {
+    width: 100%; 
+    height: 272px;
+   }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .cover {
+    width: 100%; 
+    height: 216px;
+   }
+}

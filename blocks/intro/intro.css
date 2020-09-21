@@ -1,0 +1,50 @@
+@import url('../intro/__number/__number.css');
+@import url('../intro/__text-descripti/intro__text-descripti.css');
+@import url('../intro/__text-description/intro__text-description.css');
+@import url('../intro/__text/intro__text.css');
+@import url('../intro/__title/intro__title.css');
+
+
+.intro {
+  width: 53%;
+  margin-left: 148px;
+  padding-top: 80px;
+  padding-bottom: 92px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro  {
+    width: 80%;
+  } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    width: 94%;
+    margin-left: 24px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .intro  {
+    width: 81%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .intro {
+    width: 91%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-left: 16px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .intro  {
+    width: 91%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin-left: 16px;
+  }
+}

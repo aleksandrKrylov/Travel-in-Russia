@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .video__title_position {
+    top: 42%;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .video__title_position {
+    top: 42%;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .video__title_position {
+    top: 40%;
+    left: 5%;
+    font-size: 24px;
+    line-height: 26px;
+  } 
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .video__title_position {
+    width: 95%;
+    top: 37%;
+    left: 6%;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
